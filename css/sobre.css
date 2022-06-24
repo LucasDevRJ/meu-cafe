@@ -1,0 +1,17 @@
+.conteudo-sobre {
+    text-align: center;
+}
+
+.conteudo-sobre {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.sobre-titulo {
+    font-size: 6rem;
+    
+}
+
+.sobre-texto {
+   font-size: 1.6rem;
+}
