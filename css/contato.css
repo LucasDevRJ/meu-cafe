@@ -1,0 +1,60 @@
+.conteudo-contato {
+    padding: 50px;
+}
+
+.formulario-titulo {
+    text-align: center;
+    font-size: 4rem;
+    color: #FFFFFF;
+    margin: 30px 0;
+}
+
+.formulario-texto {
+    display: block;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+
+.formulario-entrada {
+    padding: 15px;
+    width: 35%;
+    font-size: 1.2rem;
+    border: #aca9a9 solid 2px;
+    border-radius: 5px;
+    color: #494444;
+}
+
+.formulario-imagem {
+    float: right;
+    width: 30%;
+}
+
+.formulario-mensagem {
+    width: 35%;
+    padding: 20px;
+    font-size: 1.2rem;
+    border: #aca9a9 solid 2px;
+    border-radius: 5px;
+    color: #494444;
+}
+
+.formulario-botao {
+    display: block;
+    margin: 30px 0;
+    padding: 30px;
+    font-size: 1.6rem;
+    width: 30%;
+    background-color: #dd7123;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 500ms;
+    cursor: pointer;
+    border-color: #FFFFFF;
+    border-style: solid;
+}
+
+.formulario-botao:hover {
+    transform: scale(1.1);
+}
