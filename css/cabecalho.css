@@ -5,3 +5,11 @@
 .cabecalho-logo {
     width: 15%;
 }
+
+@media screen and (min-width: 280px) and (max-width: 599px) {
+   .cabecalho-logo {
+        width: 100%;
+        position: static;
+        display: block;
+    }
+}

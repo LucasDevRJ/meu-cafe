@@ -5,3 +5,9 @@
 .conteudo-banner {
     width: 100%;
 }
+
+@media screen and (min-width: 280px) and (max-width: 599px) {
+    .conteudo-banner {
+        height: 70vh;
+    }
+}

@@ -27,3 +27,22 @@
     border-radius: 10px;
     box-shadow: 10px 10px #313131;
 }
+
+@media screen and (min-width: 280px) and (max-width: 599px) {
+    .conteudo-sobre {
+        width: auto;
+    }
+
+    .sobre-titulo {
+       font-size: 5rem;
+    }
+
+    .sobre-texto {
+        padding: 0 20px;
+    }
+
+    .sobre-imagem {
+        height: 40vh;
+        width: 80%;
+    }
+}
