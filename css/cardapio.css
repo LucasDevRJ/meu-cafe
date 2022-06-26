@@ -49,3 +49,19 @@
     color: #FFFFFF;
     padding: 0 15px;
 }
+
+@media screen and (min-width: 280px) and (max-width: 599px) {
+    .conteudo-cardapio {
+        width: auto;
+    }
+
+    .cardapio-opcao {
+        display: block;
+        width: 80%;
+        margin: 50px auto;
+    }
+
+    .cardapio-descricao {
+        font-size: 1.6rem;
+    }
+}
