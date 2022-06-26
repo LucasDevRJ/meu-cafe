@@ -1,0 +1,21 @@
+.conteudo-rodape {
+    background-color: #8B4513;
+    padding: 100px 0;
+}
+
+.rodape-redes-sociais {
+    position: relative;
+    top: 60px;
+    margin-left: 40px;
+}
+
+.rede-social-logo {
+    width: 5%;
+    height: 10vh;
+    margin-left: 10px;
+    transition: 500ms;
+}
+
+.rede-social-logo:hover {
+    transform: scale(1.1);
+}
