@@ -17,3 +17,31 @@
     color: #FFFFFF;
     padding: 0 70px;
 }
+
+@media screen and (min-width: 280px) and (max-width: 599px) {
+    .conteudo-segredo {
+        width: auto;
+        text-align: center;
+    }
+
+    .segredo-titulo {
+        visibility: hidden;
+        position: relative;
+    }
+
+    .segredo-titulo::after {
+        visibility: visible;
+        position: absolute;
+        left: 0;
+        right: 0;
+        content: "Segredo";
+    }
+
+    .segredo-texto {
+        padding: 0 20px;
+    }
+
+    .segredo-video {
+        width: 80%;
+    }
+}
