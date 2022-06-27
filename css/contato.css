@@ -58,3 +58,21 @@
 .formulario-botao:hover {
     transform: scale(1.1);
 }
+
+@media screen and (min-width: 280px) and (max-width: 599px) {
+    .formulario-imagem {
+        display: none;
+    }
+
+    .formulario-entrada {
+        width: auto;
+    }
+
+    .formulario-mensagem {
+        width: 90%;
+    }
+
+    .formulario-botao {
+        width: auto;
+    }
+}
