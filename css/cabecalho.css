@@ -1,5 +1,6 @@
 .cabecalho-conteudo {
     background-color: #8B4513;
+    padding: 50px;
 }
 
 .cabecalho-logo {
@@ -24,6 +25,7 @@
     font-size: 2rem;
     color: #FFFFFF;
     transition: 500ms;
+    text-transform: capitalize;
 }
 
 .cabecalho-link:hover {
@@ -33,9 +35,20 @@
 }
 
 @media screen and (min-width: 280px) and (max-width: 599px) {
-   .cabecalho-logo {
+    .cabecalho-logo {
         width: 100%;
         position: static;
         display: block;
+    }
+
+    .cabecalho-menu {
+        position: static;
+        text-align: center;
+    }
+
+    .cabecalho-item {
+        display: block;
+        position: static;
+        margin: 10px 0;
     }
 }

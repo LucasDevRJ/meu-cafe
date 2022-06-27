@@ -8,6 +8,8 @@
     text-align: center;
     margin: 60px 0 30px 0;
     color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 4px 6px #313131;
 }
 
 .cardapio-texto {
