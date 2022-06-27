@@ -6,6 +6,32 @@
     width: 15%;
 }
 
+.cabecalho-menu {
+    position: absolute;
+    right: 0;
+}
+
+.cabecalho-item {
+    display: inline-block;
+    position: relative;
+    bottom: 100px;
+    right: 80px;
+    margin: 0 10px;
+}
+
+.cabecalho-link {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #FFFFFF;
+    transition: 500ms;
+}
+
+.cabecalho-link:hover {
+    color: #dd7123;
+    font-size: 2.2rem;
+    text-decoration: underline;
+}
+
 @media screen and (min-width: 280px) and (max-width: 599px) {
    .cabecalho-logo {
         width: 100%;
