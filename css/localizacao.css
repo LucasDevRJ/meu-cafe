@@ -21,3 +21,27 @@
 .localizacao-mapa {
     border-radius: 10px;
 }
+
+@media screen and (min-width: 280px) and (max-width: 599px) {
+    .conteudo-localizacao {
+        width: auto;
+        text-align: center;
+    }
+
+    .localizacao-titulo {
+        visibility: hidden;
+        position: relative;
+    }
+
+    .localizacao-titulo::after {
+        visibility: visible;
+        position: absolute;
+        left: 0;
+        right: 0;
+        content: "Bem-vindos!";
+    }
+
+    .localizacao-mapa {
+        width: 90%;
+    }
+}
