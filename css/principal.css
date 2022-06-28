@@ -6,6 +6,12 @@
     width: 100%;
 }
 
+@media screen and (min-width: 200px) and (max-width: 344px) {
+    .conteudo-banner {
+        height: 65vh;
+    }
+}
+
 @media screen and (min-width: 280px) and (max-width: 599px) {
     .conteudo-banner {
         height: 50vh;
