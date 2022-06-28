@@ -79,7 +79,7 @@
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 800px) {
+@media screen and (min-width: 600px) and (max-width: 1100px) {
     .conteudo-localizacao {
         width: auto;
         text-align: center;
