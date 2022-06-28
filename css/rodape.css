@@ -34,3 +34,9 @@
         bottom: 50px;
     }
 }
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .rede-social-logo {
+        width: auto;
+    }
+}
