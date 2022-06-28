@@ -46,6 +46,7 @@
 
     .cabecalho-item {
         position: static;
+        display: block;
     }
 
     .cabecalho-link {

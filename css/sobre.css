@@ -30,7 +30,37 @@
     box-shadow: 10px 10px #313131;
 }
 
-@media screen and (min-width: 280px) and (max-width: 599px) {
+@media screen and (min-width: 200px) and (max-width: 344px) {
+    .conteudo-sobre {
+        width: auto;
+    }
+
+    .sobre-titulo {
+        visibility: hidden;
+        position: relative;
+        margin: 0;
+    }
+
+    .sobre-titulo::after {
+        visibility: visible;
+        position: absolute;
+        left: 0;
+        right: 0;
+        content: "Café";
+        font-size: 4rem;
+    }
+
+    .sobre-texto {
+        padding: 0 4px;
+    }
+
+    .sobre-imagem {
+        height: 40vh;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 345px) and (max-width: 599px) {
     .conteudo-sobre {
         width: auto;
     }
