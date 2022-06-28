@@ -78,3 +78,21 @@
         width: auto;
     }
 }
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .formulario-entrada {
+        width: 60%;
+    }
+
+    .formulario-mensagem {
+        width: 70%;
+    }
+
+    .formulario-imagem {
+        display: none;
+    }
+
+    .formulario-botao {
+        width: auto;
+    }
+}
