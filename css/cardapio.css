@@ -52,7 +52,23 @@
     padding: 0 15px;
 }
 
-@media screen and (min-width: 280px) and (max-width: 599px) {
+@media screen and (min-width: 200px) and (max-width: 344px) {
+    .conteudo-cardapio {
+        width: auto;
+    }
+
+    .cardapio-titulo {
+        font-size: 3rem;
+    }
+
+    .cardapio-opcao {
+        display: block;
+        width: 80%;
+        margin: 30px auto;
+    }
+}
+
+@media screen and (min-width: 345px) and (max-width: 599px) {
     .conteudo-cardapio {
         width: auto;
     }
