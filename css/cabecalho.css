@@ -34,7 +34,27 @@
     text-decoration: underline;
 }
 
-@media screen and (min-width: 280px) and (max-width: 599px) {
+@media screen and (min-width: 200px) and (max-width: 344px) {
+    .cabecalho-logo {
+        width: 100%;
+    }
+
+    .cabecalho-menu {
+        position: static;
+        text-align: center;
+    }
+
+    .cabecalho-item {
+        position: static;
+    }
+
+    .cabecalho-link {
+        font-size: 1.2rem;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (min-width: 345px) and (max-width: 599px) {
     .cabecalho-logo {
         width: 100%;
         position: static;
