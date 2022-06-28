@@ -48,3 +48,18 @@
         width: 80%;
     }
 }
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .conteudo-sobre {
+        width: auto;
+    }
+
+    .sobre-texto {
+        padding: 0 10px;
+        font-size: 1.8rem;
+    }
+
+    .sobre-imagem {
+        width: 80%;
+    }
+}
