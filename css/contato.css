@@ -61,7 +61,38 @@
     transform: scale(1.1);
 }
 
-@media screen and (min-width: 280px) and (max-width: 599px) {
+@media screen and (min-width: 200px) and (max-width: 344px) {
+    .conteudo-contato {
+        padding: 0 20px;
+        margin-top: 60px;
+    }
+
+    .formulario-titulo {
+        font-size: 3rem;
+    }
+
+    .formulario-entrada {
+        width: 70%;
+    }
+
+    .formulario-mensagem {
+        width: 80%;
+    }
+
+    .formulario-botao {
+        width: 100%;
+    }
+
+    .formulario-botao::after {
+        content: none;
+    }
+
+    .formulario-imagem {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 345px) and (max-width: 599px) {
     .formulario-imagem {
         display: none;
     }
