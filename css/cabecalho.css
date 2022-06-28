@@ -30,7 +30,7 @@
 
 .cabecalho-link:hover {
     color: #dd7123;
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     text-decoration: underline;
 }
 
@@ -50,5 +50,30 @@
         display: block;
         position: static;
         margin: 10px 0;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .cabecalho-logo {
+        width: auto;
+    }
+
+    .cabecalho-menu {
+        position: static;
+        text-align: center;
+    }
+
+    .cabecalho-item {
+        position: static;
+        display: block;
+        margin: 10px 0;
+    }
+
+    .cabecalho-link {
+        font-size: 2.5rem;
+    }
+
+    .cabecalho-link:hover {
+        font-size: 2.8rem;
     }
 }
