@@ -20,7 +20,22 @@
     transform: scale(1.1);
 }
 
-@media screen and (min-width: 280px) and (max-width: 599px) {
+@media screen and (min-width: 200px) and (max-width: 344px) {
+    .rodape-redes-sociais {
+        margin: 0;
+        text-align: center;
+    }
+
+    .rede-social-logo {
+        display: block;
+        width: auto;
+        margin: 30px auto;
+        position: relative;
+        bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 345px) and (max-width: 599px) {
     .rodape-redes-sociais {
         margin: 0;
         text-align: center;
