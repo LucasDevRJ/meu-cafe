@@ -20,7 +20,38 @@
     padding: 0 70px;
 }
 
-@media screen and (min-width: 280px) and (max-width: 599px) {
+@media screen and (min-width: 200px) and (max-width: 344px) {
+    .conteudo-segredo {
+        width: auto;
+        text-align: center;
+    }
+
+    .segredo-texto {
+        padding: 0 4px;
+    }
+
+    .segredo-titulo {
+        visibility: hidden;
+        position: relative;
+    }
+
+    .segredo-titulo::after {
+        visibility: visible;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 20px;
+        content: "Segredo";
+        font-size: 3rem;
+    }
+
+    .segredo-video {
+        height: 80vh;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 345px) and (max-width: 599px) {
     .conteudo-segredo {
         width: auto;
         text-align: center;

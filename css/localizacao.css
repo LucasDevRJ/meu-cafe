@@ -24,7 +24,38 @@
     border-radius: 10px;
 }
 
-@media screen and (min-width: 280px) and (max-width: 599px) {
+@media screen and (min-width: 200px) and (max-width: 344px) {
+    .conteudo-localizacao {
+        width: auto;
+        text-align: center;
+    }
+
+    .localizacao-titulo {
+        visibility: hidden;
+        position: relative;
+        margin: 0;
+    }
+
+    .localizacao-titulo::after {
+        visibility: visible;
+        position: absolute;
+        left: 0;
+        right: 0;
+        content: "Mapa";
+        font-size: 3rem;
+    }
+
+    .localizacao-texto {
+        padding: 0 4px;
+    }
+
+    .localizacao-mapa {
+        height: 80vh;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 345px) and (max-width: 599px) {
     .conteudo-localizacao {
         width: auto;
         text-align: center;

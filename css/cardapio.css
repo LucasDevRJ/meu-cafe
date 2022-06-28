@@ -33,6 +33,10 @@
     transform: scale(1.1);
 }
 
+.cardapio-opcao:nth-child(n+4) {
+    margin-bottom: 0;
+}
+
 .cardapio-nome {
     margin-bottom: 20px;
     font-size: 1.6rem;
@@ -65,6 +69,10 @@
         display: block;
         width: 80%;
         margin: 30px auto;
+    }
+
+    .cardapio-descricao {
+        padding: 0;
     }
 }
 
