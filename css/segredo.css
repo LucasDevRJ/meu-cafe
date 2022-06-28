@@ -47,3 +47,18 @@
         width: 80%;
     }
 }
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .conteudo-segredo {
+        width: auto;
+        text-align: center;
+    }
+
+    .segredo-texto {
+        padding: 0 10px;
+    }
+
+    .segredo-video {
+        width: 80%;
+    }
+}
