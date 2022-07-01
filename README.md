@@ -6,6 +6,8 @@
 
 <p>Meu Café é um site sobre uma simples cafeteria. No site temos imagens estilizadas, vídeo e mapa importados, cards, animações, delicioso cardápio, um layout simples e bonito, entre outras.</p>
 
+![gif do Meu Café](imagens/meu-cafe.gif)
+
 ![https://img.shields.io/badge/Nome-Meu%20Caf%C3%A9-success](https://img.shields.io/badge/Nome-Meu%20Caf%C3%A9-success)
 
 ![https://img.shields.io/badge/Autoral-Sim-success](https://img.shields.io/badge/Autoral-Sim-success)
