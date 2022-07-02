@@ -94,3 +94,17 @@
         width: 80%;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .conteudo-sobre {
+        width: auto;
+    }
+
+    .sobre-texto {
+        padding: 0 230px;
+    }
+
+    .sobre-imagem {
+        width: 80%;
+    }
+}
