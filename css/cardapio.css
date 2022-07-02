@@ -25,7 +25,7 @@
     width:26%;
     cursor: pointer;
     transition: 500ms;
-    margin: 20px 60px 50px 0;
+    margin: 20px;
     text-align: center;
 }
 
@@ -106,5 +106,15 @@
         width: 40%;
         margin: 15px 10px;
         padding: 10px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .conteudo-cardapio {
+        width: auto;
+    }
+
+    .cardapio-lista {
+       text-align: center;
     }
 }
